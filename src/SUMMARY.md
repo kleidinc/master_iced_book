@@ -1,25 +1,25 @@
 # Master building modern UI's with Iced, Rust, SQLX, and Postgres.
 
-- [Introduction](README.md)
-- [Why learn Rust by building an Iced App?](why_learn_rust_through_iced.md)
-- [The Why](the_why/README.md)
-  - [Why Iced](the_why/why_iced.md)
-  - [Why Rust](the_why/why_rust.md)
-  - [Why SQLX with Postgres](the_why/why_sqlx_postgres.md)
-
-# Introduction
-
+- [Why This Book?](README.md)
+- [Why Iced](the_why/why_iced.md)
+- [Why Rust](the_why/why_rust.md)
+- [Why SQLX with Postgres](the_why/why_sqlx_postgres.md)
 - [What is Iced](intro/what_is_iced.md)
-- [Anatomy of an Iced App](intro/anatomy_of_an_iced_app.md)
-- [Pattern to build an Iced App](intro/pattern_to_build_an_iced_app.md)
-- [The State](deep_dive/the_state.md)
-- [The Message](deep_dive/the_message.md)
-- [The Logic or Message Handling](deep_dive/the_logic.md)
-- [The View](deep_dive/the_view.md)
-- [The Theme](deep_dive/the_theme.md)
-- [The Subscripion](deep_dive/the_subscription.md)
-- [The Iced App](deep_dive/the_iced_app.md)
-- [Essential Iced Building Blocks](iced_widgets/readme.md)
+
+  - [Anatomy of an Iced App](intro/anatomy_of_an_iced_app.md)
+  - [Pattern to build an Iced App](intro/pattern_to_build_an_iced_app.md)
+
+- [Deep Dive into Iced](deep_dive/README.md)
+
+  - [The State](deep_dive/the_state.md)
+  - [The Message](deep_dive/the_message.md)
+  - [The Logic or Message Handling](deep_dive/the_logic.md)
+  - [The View](deep_dive/the_view.md)
+  - [The Theme](deep_dive/the_theme.md)
+  - [The Subscripion](deep_dive/the_subscription.md)
+  - [The Iced App](deep_dive/the_iced_app.md)
+
+- [Essential Iced Building Blocks](iced_widgets/README.md)
   - [text](iced_widgets/text.md)
   - [text_input](iced_widgets/text_input.md)
   - [button](iced_widgets/button.md)
@@ -29,7 +29,7 @@
   - [horizontal_space](iced_widgets/horizontal_space.md)
 - [Adding a Database to your App](database/README.md)
   - [Exercise: Share a PgPool connection pool in Iced](database/exercise_arc.md)
-  - [Exercise Result](database/exercise_arc_result.md)
+  - [Solution](database/exercise_arc_result.md)
   - [Postgres Pattern](database/postgres.md)
   - [SQLX Pattern](database/sqlx.md)
   - [Setting up a connection in the Iced App](database/setting_up_dbconnection.md)

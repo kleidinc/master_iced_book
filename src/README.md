@@ -1,5 +1,3 @@
-# Master building Modern UI's with Rust, Iced, SQLX, and Postgres.
-
 The best way to learn new programming skills is by building something in an iterative way with a constant feedback loop.
 
 Ideally, any code you write should immediately show a result on the screen. This is like a drug that keeps you
