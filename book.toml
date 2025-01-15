@@ -3,4 +3,4 @@ authors = ["Alexander Kleidinc"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Master Iced to build Modern UI's with Rust and Postgres"
+title = "Master building Modern UI's with Rust, Iced, SQLX, and Postgres"

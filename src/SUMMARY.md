@@ -1,4 +1,4 @@
-# Master Iced by building a Modern UI
+# Master building modern UI's with Iced, Rust, SQLX, and Postgres.
 
 - [Introduction](README.md)
 - [Why learn Rust by building an Iced App?](why_learn_rust_through_iced.md)
@@ -6,6 +6,9 @@
   - [Why Iced](the_why/why_iced.md)
   - [Why Rust](the_why/why_rust.md)
   - [Why SQLX with Postgres](the_why/why_sqlx_postgres.md)
+
+# Introduction
+
 - [What is Iced](intro/what_is_iced.md)
 - [Anatomy of an Iced App](intro/anatomy_of_an_iced_app.md)
 - [Pattern to build an Iced App](intro/pattern_to_build_an_iced_app.md)
@@ -25,6 +28,8 @@
   - [stack](iced_widgets/stack.md)
   - [horizontal_space](iced_widgets/horizontal_space.md)
 - [Adding a Database to your App](database/README.md)
+  - [Exercise: Share a PgPool connection pool in Iced](database/exercise_arc.md)
+  - [Exercise Result](database/exercise_arc_result.md)
   - [Postgres Pattern](database/postgres.md)
   - [SQLX Pattern](database/sqlx.md)
   - [Setting up a connection in the Iced App](database/setting_up_dbconnection.md)
