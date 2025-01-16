@@ -1,5 +1,8 @@
 # Setting up Development Environment
 
+Sure, this book is about Iced, Rust, SQLX and a little of Postgres. But the tools you use
+to write code, are as important, as the the code itself.
+
 ## Why your IDE is so important
 
 Times have changed.
@@ -11,11 +14,12 @@ lost all meaning when innovation in tech started to move at speeds which were un
 Back then, you could learn something, and apply it for the rest of your programming career. In 2025 that is
 not the case anymore.
 
-You need to be able to adapt to new technologies, new libraries, new practices, all the time. To do that,
-you need a fully customizable, powerful ide, which you can easily expand, change as required.
+You need to be able to adapt to new technologies, new programming languages, new libraries, new practices,
+all the time. To do that, you need a fully customizable, powerful ide, which you can easily expand,
+change as required.
 
 That is where Neovim comes in. And that is why learning to control and configure your Neovim config is as
-important as learning Rust, Iced, SQLx or any new technology you want to master.
+important as learning Rust or Iced, or any other technology you will be using every day.
 
 ### Master Programmer
 
@@ -57,6 +61,9 @@ Just like you would do with Rust, Iced, Postgres, git, SQLX or any of the tools 
 If you never used neovim before, I would suggest not to directly jump to a preconfigured or prebuild
 config. It's not about how fast you can start using Neovim, but how you learn to configure it and slowly
 become proficient in it.
+
+Ideally you should built it from scratch and add all the plugins you need by yourself. You will learn as you go,
+improve and soon you will be regularly adding new keymaps, replacing plugins, and even writing your own.
 
 ## LSP Support
 
