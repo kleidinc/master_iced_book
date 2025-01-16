@@ -30,3 +30,8 @@ The full example can be found on [iced_form_experiment]().
 Because we don't need to mutate the pgpool, we just need a smartpointer that allows multiple access and is threadsafe.
 
 # Arc<T>
+
+[Arc](https://doc.rust-lang.org/std/sync/struct.Arc.html#) is a thread-safe referenced-counting pointer.
+
+- Arc allows you to create thread-safe referenced-counted clones inside an async runtime.
+- Which can be dereferenced with \*.
