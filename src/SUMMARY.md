@@ -3,7 +3,7 @@
   - [Why Rust](intro/why_rust.md)
   - [Why Iced](intro/why_iced.md)
   - [Why SQLX with Postgres](intro/why_sqlx_postgres.md)
-  - [Setting up Development Environment](intro/nvim.md)
+  - [Setting up Development Environment](intro/ide_setup_nvim.md)
 
 # An Introduction to Iced
 
@@ -27,6 +27,11 @@
   - [center](iced_widgets/center.md)
   - [stack](iced_widgets/stack.md)
   - [horizontal_space](iced_widgets/horizontal_space.md)
+
+# Intro to SQL
+
+- [SQL](sql/README.md)
+  - [CREATE TABLE](sql/create_table.md)
 
 # Connecting to a Database
 
