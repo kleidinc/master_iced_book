@@ -1,1 +1,5 @@
 # Insert Example
+
+```rust
+
+```

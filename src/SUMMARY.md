@@ -32,8 +32,11 @@
 
 - [SQL](sql/README.md)
   - [CREATE TABLE](sql/create_table.md)
+  - [INSERT INTO](sql/insert_into.md)
+  - [SELECT FROM](sql/select_from.md)
+  - [DELETE](sql/delete.md)
 
-# Connecting to a Database
+# Connecting to a Database through SQLX
 
 - [Adding a Database to your App](database/README.md)
   - [Exercise: Share a PgPool connection pool in Iced](database/exercise_arc.md)
