@@ -47,7 +47,7 @@
   - [Linking Postgres Types with Rust Types](database/types.md)
   - [Insert Example](database/insert.md)
   - [Update Example](database/update.md)
-  - [Get one Item by Id Example](database/get_one.md)
+  - [Get one Item](database/get_one.md)
   - [Get all](database/get_all.md)
 
 # Iced Advanced: Subscriptions
