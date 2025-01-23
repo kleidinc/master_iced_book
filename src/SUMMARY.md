@@ -14,7 +14,7 @@
   - [The Logic or Message Handling](iced/the_logic.md)
   - [The View](iced/the_view.md)
   - [The Theme](iced/the_theme.md)
-  - [The Subscripion](iced/the_subscription.md)
+  - [The Subscription](iced/the_subscription.md)
   - [The Iced App](iced/the_iced_app.md)
 
 # Essential Iced UI-Components
@@ -50,6 +50,12 @@
   - [Get one Item](database/get_one.md)
   - [Get many](database/get_all.md)
 
+# Iced Advanced : Working with Collections
+
+- [Pattern to work with Collections](iced_collections/README.md)
+- [Exercise: Show the contents of a Vec<T>](iced_collections/exercise_vec_of_t.md)
+- [Solution:Showing a Vec<T>](iced_collections/vec_of_t.md)
+
 # Iced Advanced: Subscriptions
 
 - [What are Subscriptions](subscriptions/README.md)
@@ -60,14 +66,14 @@
 # Rust Refresh
 
 - [Rust](rust/README.md)
-  - [How to run Rust with Backtrace](rust/run_rust.md)
+  - [How to run Rust with Back-trace](rust/run_rust.md)
   - [Lifetimes in Iced](rust/lifetimes_in_iced.md)
   - [Result](rust/result.md)
   - [Option](rust/option.md)
   - [Handling Errors in Iced](rust/handling_errors_in_iced.md)
   - [Clone Trait](rust/clone_trait.md)
   - [Into Trait](rust/into_trait.md)
-  - [Acr Smartpointer](rust/arc_smartpointer.md)
+  - [Arc Smart pointer](rust/arc_smartpointer.md)
 
 # Contribute
 
