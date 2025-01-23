@@ -66,6 +66,7 @@
 # Rust Refresh
 
 - [Rust](rust/README.md)
+  - [Iterators](rust/iterators.md)
   - [How to run Rust with Back-trace](rust/run_rust.md)
   - [Lifetimes in Iced](rust/lifetimes_in_iced.md)
   - [Result](rust/result.md)
@@ -74,6 +75,7 @@
   - [Clone Trait](rust/clone_trait.md)
   - [Into Trait](rust/into_trait.md)
   - [Arc Smart pointer](rust/arc_smartpointer.md)
+  - [Trait Stream](rust/trystream.md)
 
 # Contribute
 

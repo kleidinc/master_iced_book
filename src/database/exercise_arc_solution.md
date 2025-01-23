@@ -1,15 +1,38 @@
-# Exercise Result
+# Solution
 
-## Result
+### What do we need to achieve?
+
+We want to compose a column, with rows for each separate item in the Vec<T>.
+Each row is composed of text widgets for each item element.
+
+### Thought Process Pseudo-code
+
+1. Create a mutable column.
+2. Iterate over the Vec<T>.
+3. For each item compose the row using the row and text widgets.
+4. Push each row to the column.
+
+### Which widgets do you need?
+
+- column
+- row
+- text
+
+The column widget has a `.push` method, that pushes elements to the column.
+This method can be used in our solution.
+
+### Solution #1
 
 ```rust
-fm main() {
-    // Set up the PgPool
+let mut list = column![];
+let construct_row = |item| {
+    row![text(item.first_name), text(item.last_name)]
+}
+for item in &self.user_list.iter() {
+    let new_row = costruct_row(item);
+    list.push(new_row);
 }
 
-async fn check_connection_to_db(pgpool: Arc<PgPool>) -> Result<(),Error> {
-    //
-}
 ```
 
 The full example can be found on [iced_form_experiment]().
