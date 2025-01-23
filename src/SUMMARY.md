@@ -17,7 +17,7 @@
   - [The Subscripion](iced/the_subscription.md)
   - [The Iced App](iced/the_iced_app.md)
 
-# Essential Iced UI Components
+# Essential Iced UI-Components
 
 - [Essential Iced Building Blocks](iced_widgets/README.md)
   - [text](iced_widgets/text.md)
@@ -48,7 +48,7 @@
   - [Insert Example](database/insert.md)
   - [Update Example](database/update.md)
   - [Get one Item](database/get_one.md)
-  - [Get all](database/get_all.md)
+  - [Get many](database/get_all.md)
 
 # Iced Advanced: Subscriptions
 
@@ -60,6 +60,7 @@
 # Rust Refresh
 
 - [Rust](rust/README.md)
+  - [How to run Rust with Backtrace](rust/run_rust.md)
   - [Lifetimes in Iced](rust/lifetimes_in_iced.md)
   - [Result](rust/result.md)
   - [Option](rust/option.md)
