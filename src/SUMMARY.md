@@ -75,7 +75,7 @@
   - [Clone Trait](rust/clone_trait.md)
   - [Into Trait](rust/into_trait.md)
   - [Arc Smart pointer](rust/arc_smartpointer.md)
-  - [Trait Stream](rust/trystream.md)
+  - [Trait Stream try_next](rust/try_next.md)
 
 # Contribute
 

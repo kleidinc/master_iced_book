@@ -1,4 +1,29 @@
-# Get all
+# Get more than one row
+
+When you want to receive more than one row, you need to handle it
+like a stream. It may help to review the
+[Rust part on streams](rust/try_next.md), and futures.
+
+### Working Example in `sqlx_example`
+
+```rust
+async fn get_all(pgpool: Arc<PgPool>) -> Result<Vec<User>, Error> {
+    // this gives you the try_next used to poll the next row
+    // gives None when no more rows available
+    use futures::TryStreamExt;
+
+    let incoming = query_as::<_,User>(r#"
+// some select ... from ... sql
+        "#).fetch(&*pgpool);
+    let mut users : Vec<User> = Vec::new();
+
+    if let Ok(row) = incoming.try_next().await {
+        users.row.unwrap().push(row);
+    }
+    Ok(users)
+}
+
+```
 
 ### SQL for getting all the rows from a table
 
