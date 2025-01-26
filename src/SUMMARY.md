@@ -4,6 +4,7 @@
   - [Why Iced](intro/why_iced.md)
   - [Why SQLX with Postgres](intro/why_sqlx_postgres.md)
   - [Setting up Development Environment](intro/ide_setup_nvim.md)
+  - [Trademarks & Licenses](intro/trademarks.md)
 
 # An Introduction to Iced
 
