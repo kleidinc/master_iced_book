@@ -4,8 +4,8 @@ Rust books and learning materials are mostly focused around using Rust,
 in cli-tools and terminal applications. But Rust is equally amazing when
 building web, and more importantly desktop applications.
 
-But building UI's with Rust, until Iced 0.14, was more for testing, and
-experimenting. To build applications, you don't just need a runtime, but
+Building user interfaces with Rust, until Iced 0.14, was more for testing,
+and experimenting. To build applications, you don't just need a run time, but
 you also need components to compose user interfaces. Iced has both.
 
 And Iced is evolving, more components, read widgets, are coming, but even

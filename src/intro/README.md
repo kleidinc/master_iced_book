@@ -8,7 +8,7 @@ If you want to truly master Rust and Iced, you need to start building something.
 Your code won't compile. The compiler will complain:). You will have to start looking for a solution. Don't worry. That's normal.
 Becoming a master isn't easy. It's hard. But every hurdle you cross, is a step closer to mastery.
 
-The reason why Javascript is so popular, despite being more difficult that Rust in many ways, is simply because you
+The reason why JavaScript is so popular, despite being more difficult that Rust in many ways, is simply because you
 can see almost immediately what your code does in a web-browser.
 
 This is where Iced comes in. Iced empowers you to build modern desktop and web applications in 100% Rust. There are no
@@ -20,7 +20,7 @@ I want to stress that Rust is really not that difficult to learn, and Iced makes
 Of course, just like with any other programming language, you will need to learn some syntax, semantics, grammar
 and rules along the way. But as you will move along that journey you will learn to love Iced and Rust.
 
-This book consists of several parts, and is a work in progres. You can leave your email and you will be notified
+This book consists of several parts, and is a work in progress. You can leave your email and you will be notified
 when the next chapter and updates are shared.
 
 ## Part 1: Theory

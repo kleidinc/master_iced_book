@@ -1,7 +1,7 @@
 # How to learn the right way?
 
-I find it mindboggling that throughout my whole life, while I was in school, high-school
-and even in university, no one ever told me how to learn. We had books, lectures, ...
+I find it mind boggling that throughout my whole life, while I was in school, high-school
+and even in university, no one ever told me how to learn. We had books, lectures,
 on how to learn lots of things, except on how to learn to learn.
 
 It's only after I started learning Rust at a 'mature' age, that I tried to understand
@@ -23,7 +23,7 @@ book, but I can give you some tips, which will improve your learning journey.
 
 2. Then start writing code.The best way to learn is to build something you need from scratch. When you go through
    the process of building, your brain will create more neural pathways between knowledge you
-   came accross, and the harder it is to build something the better your brain will work.
+   came across, and the harder it is to build something the better your brain will work.
 
 3. Every compiler error is a way to practice, learn, and apply your earlier learned
    knowledge. Solving serious problems is the best way to learn.
