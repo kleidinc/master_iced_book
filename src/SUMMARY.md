@@ -69,6 +69,7 @@
 # Rust Refresh
 
 - [Rust](rust/README.md)
+  - [anyhow::Error](rust/anyhow.md)
   - [Iterators](rust/iterators.md)
   - [Iterator Adapters](rust/iterator_adapters.md)
   - [How to run Rust with Back-trace](rust/run_rust.md)
