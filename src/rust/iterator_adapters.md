@@ -40,3 +40,21 @@ iterator.
 ### chain
 
 Takes two iterators and creates a new iterator over both in sequence.
+
+### zip
+
+'Zips up' two iterators into a single iterator of pairs.
+
+### map
+
+```rust
+fn map<B,F>(self, f: F) -> Map<Self,F>
+where
+    Self: Sized,
+    F: FnMut(Self::Item) -> B
+```
+
+Takes a closure and creates an iterator which calls that closure on each element.
+
+`map()` transforms one iterator into another, by means of its argument: something that implements `FnMut`.
+It produces a new iterator which calls this closure on each element of the original iterator.
