@@ -28,6 +28,7 @@
   - [center](iced_widgets/center.md)
   - [stack](iced_widgets/stack.md)
   - [horizontal_space](iced_widgets/horizontal_space.md)
+  - [Column::from_vec](iced_widgets/column_from_vec.md)
 
 # Intro to SQL
 
@@ -35,6 +36,7 @@
   - [CREATE TABLE](sql/create_table.md)
   - [INSERT INTO](sql/insert_into.md)
   - [SELECT FROM](sql/select_from.md)
+  - [UPDATE](sql/update.md)
   - [DELETE](sql/delete.md)
 
 # Connecting to a Database through SQLX
@@ -68,6 +70,7 @@
 
 - [Rust](rust/README.md)
   - [Iterators](rust/iterators.md)
+  - [Iterator Adapters](rust/iterator_adapters.md)
   - [How to run Rust with Back-trace](rust/run_rust.md)
   - [Lifetimes in Iced](rust/lifetimes_in_iced.md)
   - [Result](rust/result.md)
@@ -80,4 +83,4 @@
 
 # Contribute
 
-- [How to contribute?](thanks/README.md)
+- [How to contribute to this book?](thanks/README.md)
