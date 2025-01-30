@@ -83,6 +83,13 @@
   - [Trait Stream try_next](rust/try_next.md)
   - [How to make a shorter Alias](rust/make_an_alias.md)
 
+# Rust Essential Crates
+
+- [Essential Crates](rust_crates/README.md)
+  - [dynclone](rust_crates/dynclone.md)
+  - [thiserror](rust_crates/thiserror.md)
+  - [anyhow](rust_crates/anyhow.md)
+
 # Contribute
 
 - [How to contribute to this book?](thanks/README.md)
