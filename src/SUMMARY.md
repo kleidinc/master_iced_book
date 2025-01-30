@@ -81,6 +81,7 @@
   - [Into Trait](rust/into_trait.md)
   - [Arc Smart pointer](rust/arc_smartpointer.md)
   - [Trait Stream try_next](rust/try_next.md)
+  - [How to make a shorter Alias](rust/make_an_alias.md)
 
 # Contribute
 
