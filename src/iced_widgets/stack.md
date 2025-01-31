@@ -1,9 +1,9 @@
-# stack
+# stack!
 
 Once you need to show windows, forms or modals on top of your parent
-screen, you will need to use the `stack` widget.
+screen, you will need to use the [`stack!` macro](https://docs.iced.rs/iced/widget/macro.stack.html).
 
-As, the name implies, stack, stacks a child over a parent.
+As, the name implies, stack, stacks children over an underlying parent.
 
 **Note: Throughout the book I use screen, modal as synonyms. Iced lingo
 uses modal.**
@@ -20,3 +20,7 @@ uses modal.**
    input.
 
 ### Example `fn show_child`
+
+```rust
+
+```
