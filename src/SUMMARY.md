@@ -89,6 +89,7 @@
   - [dynclone](rust_crates/dynclone.md)
   - [thiserror](rust_crates/thiserror.md)
   - [anyhow](rust_crates/anyhow.md)
+  - [secrecy](rust_crates/secrecy.md)
 
 # Contribute
 
